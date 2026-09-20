@@ -1,0 +1,5 @@
+id,name,type_tax_use,tax_scope,amount_type,active,company_id/id,sequence,amount,description,invoice_label,is_base_affected,tax_group_id/id,tax_exigibility
+account_tax_vat_18,VAT 18%,sale,,percent,1,,1,18.0,,15.00%,1,Jinasena_MasterData_Accounting.account_tagroup_tax_15,on_invoice
+account_tax_vat_18_10,VAT 18%,purchase,,percent,1,,1,18.0,,15.00%,1,Jinasena_MasterData_Accounting.account_tagroup_tax_15,on_invoice
+account_tax_vat_18_sales,VAT 18% (Sales),sale,consu,percent,1,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,1,18.0,VAT 18% (Sales),18%,1,Jinasena_MasterData_Accounting.account_tagroup_vat_18,on_invoice
+account_tax_vat_18_purchase,VAT 18% (Purchase),purchase,,percent,1,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,1,18.0,VAT 18% (Purchase),18%,1,Jinasena_MasterData_Accounting.account_tagroup_vat_18,on_invoice

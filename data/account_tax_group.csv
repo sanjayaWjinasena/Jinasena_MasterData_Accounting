@@ -1,0 +1,4 @@
+id,name,sequence,company_id/id
+account_tagroup_vat_18,VAT 18%,0,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd
+account_tagroup_vat_18_6,VAT 18%,0,
+account_tagroup_tax_15,Tax 15%,10,
