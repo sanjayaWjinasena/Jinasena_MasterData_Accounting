@@ -12,10 +12,6 @@
         'Jinasena_MasterData_Common',
     ],
     'data': [
-        'data/account.account.csv',
-        'data/account.tax.group.csv',
-        'data/account.tax.csv',
-        'data/account.journal.csv',
         'data/account.payment.term.csv',
         'data/account.payment.method.csv',
         'data/account.analytic.plan.csv',
