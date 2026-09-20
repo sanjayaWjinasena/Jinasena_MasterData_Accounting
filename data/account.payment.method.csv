@@ -1,3 +1,0 @@
-id,name,code,payment_type
-account_payment_method_demo,Demo,demo,inbound
-account_payment_method_paypal,Paypal,paypal,inbound

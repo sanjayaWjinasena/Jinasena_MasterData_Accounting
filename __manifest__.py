@@ -13,7 +13,6 @@
     ],
     'data': [
         'data/account.payment.term.csv',
-        'data/account.payment.method.csv',
         'data/account.analytic.plan.csv',
         'data/account.analytic.account.csv',
         'data/x_journal_types.csv',
