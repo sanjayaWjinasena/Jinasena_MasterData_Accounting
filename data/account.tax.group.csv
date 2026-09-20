@@ -1,4 +1,4 @@
 id,name,sequence,company_id/id,tax_payable_account_id/id,tax_receivable_account_id/id,advance_tax_payment_account_id/id,country_id/id
-account_tagroup_vat_18,VAT 18%,0,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,,,,base.lk
+account_tagroup_vat_18,VAT 18%,0,,,,,base.lk
 account_tagroup_vat_18_6,VAT 18%,0,base.main_company,account.1_tax_payable,account.1_tax_receivable,account.1_tax_payable,base.lk
 account_tagroup_tax_15,Tax 15%,10,base.main_company,,,,base.lk
