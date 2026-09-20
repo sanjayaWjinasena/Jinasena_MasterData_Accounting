@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 {
     'name': 'Jinasena : MasterData : Accounting',
-    'version': '17.0.0.0.1',
+    'version': '17.0.0.0.2',
     'summary': 'Master-data extracted from CDB for Accounting domain.',
     'description': 'Extracted from Clear-DB. Test-env master data. Edit the CSVs in data/ to add/remove rows before install.',
     'author': 'Jinasena Agricultural Machinery (Pvt) Ltd.',
@@ -18,8 +18,6 @@
         'data/account_journal.csv',
         'data/account_payment_term.csv',
         'data/account_payment_method.csv',
-        'data/account_incoterms.csv',
-        'data/account_fiscal_position.csv',
         'data/account_analytic_plan.csv',
         'data/account_analytic_account.csv',
         'data/x_journal_types.csv',
