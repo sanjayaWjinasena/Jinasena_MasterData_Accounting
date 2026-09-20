@@ -20,6 +20,7 @@
         'data/x_custom_currency_rate.csv',
         'data/link/x_customer_group.csv',
         'data/link/x_vendor_group.csv',
+        'data/link/account.analytic.plan.csv',
     ],
     'installable': True,
     'auto_install': False,
