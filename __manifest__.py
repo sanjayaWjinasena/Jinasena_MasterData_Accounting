@@ -23,6 +23,8 @@
         'data/x_journal_types.csv',
         'data/x_custom_currency.csv',
         'data/x_custom_currency_rate.csv',
+        'data/x_customer_group.link.csv',
+        'data/x_vendor_group.link.csv',
     ],
     'installable': True,
     'auto_install': False,
