@@ -1,16 +1,16 @@
 id,name,active,note,company_id/id,sequence,discount_percentage,discount_days,early_pay_discount_computation
-account_payment_term_tc_50,TC 50%,1,,,10,0.0,0,included
-account_payment_term_01_day,01 Day,1,,,10,0.0,0,included
-account_payment_term_07_days,07 Days,1,,,10,0.0,0,included
-account_payment_term_10_days,10 Days,1,,,10,0.0,0,included
-account_payment_term_14_days,14 Days,1,<p><br></p>,,10,0.0,0,included
-account_payment_term_15_days,15 Days,1,,,10,0.0,0,included
-account_payment_term_21_days,21 Days,1,,,10,0.0,0,included
-account_payment_term_30_days,30 Days,1,,,10,0.0,0,included
-account_payment_term_45_days,45 Days,1,,,10,0.0,0,included
-account_payment_term_60_days,60 Days,1,,,10,0.0,0,included
-account_payment_term_90_days,90 Days,1,,,10,0.0,0,included
-account_payment_term_120_days_imports,120 Days - Imports,1,,,10,0.0,0,included
+account_payment_term_tc_50,TC 50%,1,,base.main_company,10,0.0,0,included
+account_payment_term_01_day,01 Day,1,,base.main_company,10,0.0,0,included
+account_payment_term_07_days,07 Days,1,,base.main_company,10,0.0,0,included
+account_payment_term_10_days,10 Days,1,,base.main_company,10,0.0,0,included
+account_payment_term_14_days,14 Days,1,<p><br></p>,base.main_company,10,0.0,0,included
+account_payment_term_15_days,15 Days,1,,base.main_company,10,0.0,0,included
+account_payment_term_21_days,21 Days,1,,base.main_company,10,0.0,0,included
+account_payment_term_30_days,30 Days,1,,base.main_company,10,0.0,0,included
+account_payment_term_45_days,45 Days,1,,base.main_company,10,0.0,0,included
+account_payment_term_60_days,60 Days,1,,base.main_company,10,0.0,0,included
+account_payment_term_90_days,90 Days,1,,base.main_company,10,0.0,0,included
+account_payment_term_120_days_imports,120 Days - Imports,1,,base.main_company,10,0.0,0,included
 account_payment_term_immediate_payment,Immediate Payment,1,,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,10,0.0,0,included
 account_payment_term_tc_50_269,TC 50%,1,,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,10,0.0,0,included
 account_payment_term_01_day_270,01 Day,1,,Jinasena_MasterData_Common.res_company_jinasena_agricultural_machinery_pvt_ltd,10,0.0,0,included
