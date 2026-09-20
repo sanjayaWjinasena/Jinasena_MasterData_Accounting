@@ -4,5 +4,5 @@ journal_types_inv_genpr0,base.main_company,1,10,Inventory Movement-General Issue
 journal_types_inv_genrep,base.main_company,1,10,Inventory Movement-General Issues Repairs,Inv_GENREP
 journal_types_inv_mov,base.main_company,1,10,Inventory Movement Journal - General,Inv_Mov
 journal_types_mj_fse,base.main_company,1,10,Material Movement to Maintenance Factory,MJ_FSE
-journal_types_inv_mov_6,,1,10,Inventory Movement Journal - General,Inv_Mov
-journal_types_mj_cs,,1,10,Movement Journal - Consumables,MJ_CS
+journal_types_inv_mov_6,seed_master_data_and_settings.company_jinasena_agricultural_machinery,1,10,Inventory Movement Journal - General,Inv_Mov
+journal_types_mj_cs,seed_master_data_and_settings.company_jinasena_agricultural_machinery,1,10,Movement Journal - Consumables,MJ_CS
