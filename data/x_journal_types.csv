@@ -2,7 +2,4 @@ id,x_studio_company_id/id,x_active,x_studio_sequence,x_studio_description,x_name
 journal_types_inv_cnt_mj,base.main_company,1,10,Movement journal - Variances of Physical Stock Counts,Inv_Cnt_MJ
 journal_types_inv_genpr0,base.main_company,1,10,Inventory Movement-General Issues Production,Inv_GENPR0
 journal_types_inv_genrep,base.main_company,1,10,Inventory Movement-General Issues Repairs,Inv_GENREP
-journal_types_inv_mov,base.main_company,1,10,Inventory Movement Journal - General,Inv_Mov
 journal_types_mj_fse,base.main_company,1,10,Material Movement to Maintenance Factory,MJ_FSE
-journal_types_inv_mov_6,seed_master_data_and_settings.company_jinasena_agricultural_machinery,1,10,Inventory Movement Journal - General,Inv_Mov
-journal_types_mj_cs,seed_master_data_and_settings.company_jinasena_agricultural_machinery,1,10,Movement Journal - Consumables,MJ_CS

@@ -1,8 +1,7 @@
-id,x_studio_sequence,x_studio_start_date,x_studio_end_date,x_studio_rate,x_studio_custom_currency_id/id,x_studio_company_id/id,x_name,x_active
-custom_currency_rate_test,10,,,0.0,,,TEST,1
-custom_currency_rate_id_2,10,2021-10-01,2021-10-08,200.0,,,,1
-custom_currency_rate_id_3,10,2021-10-01,2021-10-08,200.0,,,,1
-custom_currency_rate_id_21,10,2022-03-01,2024-03-01,1.0,Jinasena_MasterData_Accounting.custom_currency_lkr,,,1
-custom_currency_rate_id_22,10,2022-08-01,2025-12-31,335.0,Jinasena_MasterData_Accounting.custom_currency_usd,,,1
-custom_currency_rate_id_23,10,2023-03-26,2023-05-01,3.97,Jinasena_MasterData_Accounting.custom_currency_inr,,,1
-custom_currency_rate_id_24,10,2025-10-01,2027-12-31,300.0,Jinasena_MasterData_Accounting.custom_currency_usd_25,seed_master_data_and_settings.company_jinasena_agricultural_machinery,,1
+id,x_studio_sequence,x_studio_start_date,x_studio_end_date,x_studio_rate,x_studio_custom_currency_id/id,x_studio_company_id/id,x_active
+custom_currency_rate_id_2,10,2021-10-01,2021-10-08,200.0,,,1
+custom_currency_rate_id_3,10,2021-10-01,2021-10-08,200.0,,,1
+custom_currency_rate_id_21,10,2022-03-01,2024-03-01,1.0,Jinasena_MasterData_Accounting.custom_currency_lkr_24,,1
+custom_currency_rate_id_22,10,2022-08-01,2025-12-31,335.0,Jinasena_MasterData_Accounting.custom_currency_usd_25,,1
+custom_currency_rate_id_23,10,2023-03-26,2023-05-01,3.97,Jinasena_MasterData_Accounting.custom_currency_inr,,1
+custom_currency_rate_id_24,10,2025-10-01,2027-12-31,300.0,Jinasena_MasterData_Accounting.custom_currency_usd_25,seed_master_data_and_settings.company_jinasena_agricultural_machinery,1

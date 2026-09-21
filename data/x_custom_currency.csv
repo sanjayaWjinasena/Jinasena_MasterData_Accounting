@@ -1,6 +1,2 @@
 id,x_studio_current_rate,x_studio_company_id/id,x_name,x_active,x_studio_sequence,x_studio_name,x_studio_active,x_studio_iso_currency_code,x_studio_currency_id/id
-custom_currency_usd,0.0,base.main_company,USD,1,10,US Dollar,1,$,base.USD
-custom_currency_lkr,0.0,base.main_company,LKR,1,10,Rupees,1,Rs,base.LKR
 custom_currency_inr,0.0,base.main_company,INR,1,10,Indian Rupee,1,₹,base.INR
-custom_currency_lkr_24,0.0,seed_master_data_and_settings.company_jinasena_agricultural_machinery,LKR,1,10,Sri Lankan Rupees,1,Rs,base.LKR
-custom_currency_usd_25,0.0,seed_master_data_and_settings.company_jinasena_agricultural_machinery,USD,1,10,American Dollar,1,$,base.USD

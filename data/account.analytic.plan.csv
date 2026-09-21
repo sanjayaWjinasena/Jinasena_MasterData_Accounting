@@ -1,8 +1,0 @@
-id,name,parent_path,complete_name,color,sequence,bugfix_analytics_source_type,bugfix_analytics_required
-account_analytic_plan_projects,Projects,14/,Projects,8,10,,
-account_analytic_plan_department,Department,15/,Department,8,10,type,1
-account_analytic_plan_department_17,Department,15/17/,Department / Department,7,10,,
-account_analytic_plan_cost_center,Cost Center,18/,Cost Center,11,10,type,1
-account_analytic_plan_sales_center,Sales Center,19/,Sales Center,1,10,warehouse,1
-account_analytic_plan_product_group,Product Group,20/,Product Group,8,10,product_category,1
-account_analytic_plan_employee,Employee,21/,Employee,8,10,employee,1
