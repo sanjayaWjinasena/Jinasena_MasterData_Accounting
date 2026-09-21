@@ -1,2 +1,2 @@
 id,x_studio_current_rate,x_studio_company_id/id,x_name,x_active,x_studio_sequence,x_studio_name,x_studio_active,x_studio_iso_currency_code,x_studio_currency_id/id
-custom_currency_inr,0.0,base.main_company,INR,1,10,Indian Rupee,1,₹,base.INR
+custom_currency_inr,0.0,seed_master_data_and_settings.company_jinasena_pvt_ltd,INR,1,10,Indian Rupee,1,₹,base.INR

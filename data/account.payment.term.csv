@@ -1,2 +1,2 @@
 id,name,active,company_id/id,sequence,discount_percentage,discount_days,early_pay_discount_computation
-account_payment_term_120_days_imports,120 Days - Imports,1,base.main_company,10,0.0,0,included
+account_payment_term_120_days_imports,120 Days - Imports,1,seed_master_data_and_settings.company_jinasena_pvt_ltd,10,0.0,0,included
