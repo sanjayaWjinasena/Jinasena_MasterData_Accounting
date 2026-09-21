@@ -1,6 +1,4 @@
 id,name,active,plan_id/id
-account_analytic_account_mrg_s00007_prj,MRG%: S00007_PRJ,1,analytic.analytic_plan_projects
-account_analytic_account_s00006_prj,S00006_PRJ,1,analytic.analytic_plan_projects
 account_analytic_account_s00008_prj,S00008_PRJ,1,analytic.analytic_plan_projects
 account_analytic_account_s00021_prj,S00021_PRJ,1,analytic.analytic_plan_projects
 account_analytic_account_s00023_prj,S00023_PRJ,1,analytic.analytic_plan_projects
