@@ -1,0 +1,6 @@
+id,name,parent_id/id,default_applicability,sequence,color
+account_analytic_plan_department,Department,,optional,10,8
+account_analytic_plan_cost_center,Cost Center,,optional,10,11
+account_analytic_plan_sales_center,Sales Center,,optional,10,1
+account_analytic_plan_product_group,Product Group,,optional,10,8
+account_analytic_plan_employee,Employee,,optional,10,8
