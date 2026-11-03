@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="0">
+        <!-- Runs before the CSVs below it in the manifest: binds our xmlids to
+             records the target DB already has (see models/ir_model_data.py). -->
+        <function model="ir.model.data" name="_jinasena_md_accounting_bind">
+            <value>accounts</value>
+        </function>
+    </data>
+</odoo>

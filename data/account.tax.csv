@@ -1,0 +1,2 @@
+id,name,description,invoice_label,type_tax_use,tax_scope,amount_type,amount,active,price_include,include_base_amount,is_base_affected,sequence,tax_exigibility,analytic,cash_basis_transition_account_id/id,tax_group_id/id,company_id/id,country_id/id
+account_tax_vat_18_sales,VAT 18% (Sales),VAT 18%,,sale,,percent,18.0,1,,,1,1,on_invoice,,,Jinasena_MasterData_Accounting.account_tagroup_vat_18,seed_master_data_and_settings.company_jinasena_agricultural_machinery,base.lk

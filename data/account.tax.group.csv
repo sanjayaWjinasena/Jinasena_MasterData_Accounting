@@ -1,0 +1,4 @@
+id,name,company_id/id,country_id/id,preceding_subtotal,sequence
+account_tagroup_vat_18,VAT 18%,seed_master_data_and_settings.company_jinasena_agricultural_machinery,base.lk,,0
+account_tagroup_vat_18_6,VAT 18%,seed_master_data_and_settings.company_jinasena_pvt_ltd,base.lk,,0
+account_tagroup_tax_15,Tax 15%,seed_master_data_and_settings.company_jinasena_pvt_ltd,base.lk,,10
