@@ -1,4 +1,5 @@
 id,name,active,company_id/id,sequence,discount_percentage,discount_days,early_pay_discount_computation
+account_payment_term_immediate_payment_1,Immediate Payment,1,seed_master_data_and_settings.company_jinasena_pvt_ltd,10,0.0,0,included
 account_payment_term_tc_50,TC 50%,1,seed_master_data_and_settings.company_jinasena_pvt_ltd,10,0.0,0,included
 account_payment_term_01_day,01 Day,1,seed_master_data_and_settings.company_jinasena_pvt_ltd,10,0.0,0,included
 account_payment_term_07_days,07 Days,1,seed_master_data_and_settings.company_jinasena_pvt_ltd,10,0.0,0,included
