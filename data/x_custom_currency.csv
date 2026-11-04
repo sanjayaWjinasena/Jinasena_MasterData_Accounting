@@ -1,4 +1,4 @@
-id,x_studio_current_rate,x_studio_company_id/id,x_name,x_active,x_studio_sequence,x_studio_name,x_studio_active,x_studio_iso_currency_code,x_studio_currency_id/id
+id,x_studio_current_rate,accounting_company_id/id,name,active,sequence,x_studio_name,x_studio_active,x_studio_iso_currency_code,x_studio_currency_id/id
 custom_currency_usd_25,0.0,seed_master_data_and_settings.company_jinasena_agricultural_machinery,USD,1,10,,1,$,base.USD
 custom_currency_lkr_24,0.0,seed_master_data_and_settings.company_jinasena_agricultural_machinery,LKR,1,10,,1,Rs,base.LKR
 custom_currency_eur,0.0,seed_master_data_and_settings.company_jinasena_agricultural_machinery,EUR,1,10,,1,€,base.EUR

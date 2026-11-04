@@ -1,4 +1,4 @@
-id,x_studio_company_id/id,x_active,x_studio_sequence,x_studio_description,x_name
+id,accounting_company_id/id,active,sequence,description,name
 journal_types_inv_mov,seed_master_data_and_settings.company_jinasena_agricultural_machinery,1,10,Inventory Movement Journal - General,Inv_Mov
 journal_types_mj_cs,seed_master_data_and_settings.company_jinasena_agricultural_machinery,1,10,Movement Journal - Consumables,MJ_CS
 journal_types_mj_sr,seed_master_data_and_settings.company_jinasena_agricultural_machinery,1,10,Movement Journal - Services and Repair Jobs (JOB Issues),MJ_SR
