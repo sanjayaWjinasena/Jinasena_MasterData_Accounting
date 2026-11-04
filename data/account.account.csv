@@ -1,4 +1,39 @@
 id,code,name,account_type,company_id/id,currency_id/id,reconcile,deprecated,non_trade,note,tag_ids/id
+account_account_liquidity_transfer_1,101701,Liquidity Transfer,asset_current,seed_master_data_and_settings.company_jinasena_pvt_ltd,,1,,,,
+account_account_current_assets,101000,Current Assets,asset_current,seed_master_data_and_settings.company_jinasena_pvt_ltd,,1,,,,
+account_account_stock_valuation,110100,Stock Valuation,asset_current,seed_master_data_and_settings.company_jinasena_pvt_ltd,,,,,,
+account_account_stock_interim_received,110200,Stock Interim (Received),asset_current,seed_master_data_and_settings.company_jinasena_pvt_ltd,,1,,,,
+account_account_stock_interim_delivered,110300,Stock Interim (Delivered),asset_current,seed_master_data_and_settings.company_jinasena_pvt_ltd,,1,,,,
+account_account_account_receivable,121000,Account Receivable,asset_receivable,seed_master_data_and_settings.company_jinasena_pvt_ltd,,1,,,,
+account_account_products_to_receive,121100,Products to receive,asset_current,seed_master_data_and_settings.company_jinasena_pvt_ltd,,1,,,,
+account_account_tax_paid,131000,Tax Paid,asset_current,seed_master_data_and_settings.company_jinasena_pvt_ltd,,1,,,,
+account_account_tax_receivable,132000,Tax Receivable,asset_current,seed_master_data_and_settings.company_jinasena_pvt_ltd,,,,,,
+account_account_prepayments,141000,Prepayments,asset_prepayments,seed_master_data_and_settings.company_jinasena_pvt_ltd,,,,,,
+account_account_fixed_asset,151000,Fixed Asset,asset_fixed,seed_master_data_and_settings.company_jinasena_pvt_ltd,,,,,,
+account_account_non_current_assets,191000,Non-current assets,asset_non_current,seed_master_data_and_settings.company_jinasena_pvt_ltd,,,,,,
+account_account_current_liabilities,201000,Current Liabilities,liability_current,seed_master_data_and_settings.company_jinasena_pvt_ltd,,,,,,
+account_account_account_payable,211000,Account Payable,liability_payable,seed_master_data_and_settings.company_jinasena_pvt_ltd,,1,,,,
+account_account_bills_to_receive,211100,Bills to receive,liability_current,seed_master_data_and_settings.company_jinasena_pvt_ltd,,1,,,,
+account_account_tax_received,251000,Tax Received,liability_current,seed_master_data_and_settings.company_jinasena_pvt_ltd,,,,,,
+account_account_tax_payable,252000,Tax Payable,liability_current,seed_master_data_and_settings.company_jinasena_pvt_ltd,base.LKR,,,,,
+account_account_non_current_liabilities,291000,Non-current Liabilities,liability_non_current,seed_master_data_and_settings.company_jinasena_pvt_ltd,,,,,,
+account_account_capital,301000,Capital,equity,seed_master_data_and_settings.company_jinasena_pvt_ltd,,,,,,
+account_account_dividends,302000,Dividends,equity,seed_master_data_and_settings.company_jinasena_pvt_ltd,,,,,,
+account_account_product_sales,400000,Product Sales,income,seed_master_data_and_settings.company_jinasena_pvt_ltd,,1,,,,account.account_tag_operating
+account_account_foreign_exchange_gain_22,441000,Foreign Exchange Gain,income,seed_master_data_and_settings.company_jinasena_pvt_ltd,,1,,,,account.account_tag_financing
+account_account_cash_difference_gain,442000,Cash Difference Gain,income,seed_master_data_and_settings.company_jinasena_pvt_ltd,,1,,,,account.account_tag_investing
+account_account_other_income,450000,Other Income,income_other,seed_master_data_and_settings.company_jinasena_pvt_ltd,,,,,,
+account_account_cost_of_goods_sold_25,500000,Cost of Goods Sold,expense_direct_cost,seed_master_data_and_settings.company_jinasena_pvt_ltd,,,,,,account.account_tag_operating
+account_account_expenses,600000,Expenses,expense,seed_master_data_and_settings.company_jinasena_pvt_ltd,,1,,,,account.account_tag_operating
+account_account_purchase_of_equipments,611000,Purchase of Equipments,expense,seed_master_data_and_settings.company_jinasena_pvt_ltd,,,,,,account.account_tag_investing
+account_account_rent_28,612000,Rent,expense,seed_master_data_and_settings.company_jinasena_pvt_ltd,,,,,,account.account_tag_investing
+account_account_bank_fees,620000,Bank Fees,expense,seed_master_data_and_settings.company_jinasena_pvt_ltd,,,,,,account.account_tag_financing
+account_account_salary_expenses,630000,Salary Expenses,expense,seed_master_data_and_settings.company_jinasena_pvt_ltd,,,,,,account.account_tag_operating
+account_account_foreign_exchange_loss_31,641000,Foreign Exchange Loss,expense,seed_master_data_and_settings.company_jinasena_pvt_ltd,,,,,,account.account_tag_financing
+account_account_cash_difference_loss,642000,Cash Difference Loss,expense,seed_master_data_and_settings.company_jinasena_pvt_ltd,,,,,,account.account_tag_investing
+account_account_rd_expenses,961000,RD Expenses,expense,seed_master_data_and_settings.company_jinasena_pvt_ltd,,,,,,account.account_tag_investing
+account_account_sales_expenses,962000,Sales Expenses,expense,seed_master_data_and_settings.company_jinasena_pvt_ltd,,,,,,account.account_tag_investing
+account_account_account_receivable_pos,101300,Account Receivable (PoS),asset_receivable,seed_master_data_and_settings.company_jinasena_pvt_ltd,,1,,,,
 account_account_overhead_cost,101401,OverHead Cost,liability_current,seed_master_data_and_settings.company_jinasena_pvt_ltd,,1,,,,
 account_account_labour_cost,101501,Labour Cost,expense,seed_master_data_and_settings.company_jinasena_pvt_ltd,,,,,,
 account_account_labour_cost_38,101502,Labour Cost,asset_current,seed_master_data_and_settings.company_jinasena_pvt_ltd,,1,,,,
@@ -725,6 +760,9 @@ account_account_lease_liability_cbn_3660,21050010,LEASE LIABILITY CBN 3660,liabi
 account_account_interest_in_suspense_cbn_3660,21050030,INTEREST IN SUSPENSE CBN 3660,liability_non_current,seed_master_data_and_settings.company_jinasena_agricultural_machinery,base.LKR,1,,,,
 account_account_depreciation_leasehold_motor_vehicles_4536,72090090,DEPRECIATION - LEASEHOLD  MOTOR VEHICLES,expense_depreciation,seed_master_data_and_settings.company_jinasena_agricultural_machinery,base.LKR,1,,,,
 account_account_interest_lease,81010070,INTEREST - LEASE,expense,seed_master_data_and_settings.company_jinasena_agricultural_machinery,,1,,,,
+account_account_12345,00000001,12345,asset_cash,seed_master_data_and_settings.company_jinasena_agricultural_machinery,,,,,,
+account_account_customer_receipts_cash,00000002,Customer Receipts - Cash,asset_cash,seed_master_data_and_settings.company_jinasena_agricultural_machinery,,,,,,
+account_account_project_expense,101505,Project Expense,asset_cash,seed_master_data_and_settings.company_jinasena_pvt_ltd,base.LKR,,,,,
 account_account_rohana_bank,123456,ROHANA BANK,asset_cash,seed_master_data_and_settings.company_jinasena_agricultural_machinery,base.LKR,,,,,
 account_account_petty_cash_factory_4543,CL043,PETTY CASH  - FACTORY,asset_non_current,seed_master_data_and_settings.company_jinasena_agricultural_machinery,,,,,,
 account_account_creditors_control_suspense_4544,CL005,CREDITORS CONTROL - SUSPENSE,asset_non_current,seed_master_data_and_settings.company_jinasena_agricultural_machinery,,,,,,
