@@ -1,2 +1,9 @@
 id,name,parent_id/id,default_applicability,sequence,color
 account_analytic_plan_default_upg,Default upg,,optional,10,8
+account_analytic_plan_projects,Projects,,optional,10,8
+account_analytic_plan_department,Department,,optional,10,8
+account_analytic_plan_department_17,Department,Jinasena_MasterData_Accounting.account_analytic_plan_department,optional,10,7
+account_analytic_plan_cost_center,Cost Center,,optional,10,11
+account_analytic_plan_sales_center,Sales Center,,optional,10,1
+account_analytic_plan_product_group,Product Group,,optional,10,8
+account_analytic_plan_employee,Employee,,optional,10,8
