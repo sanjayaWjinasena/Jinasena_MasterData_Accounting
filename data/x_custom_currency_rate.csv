@@ -1,5 +1,4 @@
 id,sequence,x_studio_start_date,x_studio_end_date,x_studio_rate,x_studio_custom_currency_id/id,accounting_company_id/id,active
-custom_currency_rate_id_1,10,2026-10-01,2026-11-08,320.0,Jinasena_MasterData_Accounting.custom_currency_usd_25,seed_master_data_and_settings.company_jinasena_agricultural_machinery,1
 custom_currency_rate_test,10,,,0.0,,,1
 custom_currency_rate_id_2,10,2021-10-01,2021-10-08,200.0,,,1
 custom_currency_rate_id_3,10,2021-10-01,2021-10-08,200.0,,,1

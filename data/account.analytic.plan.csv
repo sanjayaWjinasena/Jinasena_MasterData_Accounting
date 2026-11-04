@@ -1,5 +1,4 @@
 id,name,parent_id/id,default_applicability,sequence,color
-account_analytic_plan_default_upg,Default upg,,optional,10,8
 account_analytic_plan_projects,Projects,,optional,10,8
 account_analytic_plan_department,Department,,optional,10,8
 account_analytic_plan_department_17,Department,Jinasena_MasterData_Accounting.account_analytic_plan_department,optional,10,7
