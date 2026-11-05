@@ -72,3 +72,37 @@ class IrModelData(models.Model):
                 IMD.create({'module': module, 'name': xmlid, 'model': model, 'res_id': rec.id, 'noupdate': False})
                 bound += 1
         _logger.info('[%s] bound %s existing %s rows', module, bound, model)
+
+    @api.model
+    def _jinasena_md_accounting_payment_accounts(self):
+        """Outstanding receipts / payments accounts as on Clear-DB (called from data/02_payment_accounts.xml).
+
+        - each journal's payment method lines (Manual in / out, Checks): their payment account
+          (data/payment_accounts/payment_method_lines.csv); the lines are created by Odoo with the journal and
+          have no xmlid, so they are matched on journal + payment method + type (created when missing);
+        - the company-level fallback accounts (data/payment_accounts/company_accounts.csv).
+        Without them Odoo refuses payments ('without an outstanding payments/receipts account').
+        Written directly, so it applies on upgrades as well (the seeded companies are noupdate).
+        """
+        data_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'data', 'payment_accounts')
+        ref = lambda x: self.env.ref(x, raise_if_not_found=False)  # noqa: E731
+        Line = self.env['account.payment.method.line'].sudo()
+        done = 0
+        with open(os.path.join(data_dir, 'payment_method_lines.csv'), encoding='utf-8', newline='') as f:
+            for row in csv.DictReader(f):
+                journal, method, account = ref(row['journal_id/id']), ref(row['payment_method_id/id']), ref(row['payment_account_id/id'])
+                if not (journal and method and account):
+                    continue
+                line = Line.search([('journal_id', '=', journal.id), ('payment_method_id', '=', method.id)], limit=1)
+                if not line:
+                    line = Line.create({'journal_id': journal.id, 'payment_method_id': method.id, 'name': row['name']})
+                if line.payment_account_id != account:
+                    line.payment_account_id = account
+                done += 1
+        with open(os.path.join(data_dir, 'company_accounts.csv'), encoding='utf-8', newline='') as f:
+            for row in csv.DictReader(f):
+                company, account = ref(row['company_id/id']), ref(row['account_id/id'])
+                if company and account:
+                    company.sudo()[row['field']] = account
+        _logger.info('[%s] payment accounts set on %s journal payment methods', MODULE, done)
+        return True

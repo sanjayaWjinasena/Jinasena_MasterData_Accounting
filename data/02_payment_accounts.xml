@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="0">
+        <!-- After the journals: outstanding receipts / payments accounts as on Clear-DB
+             (see models/ir_model_data.py). -->
+        <function model="ir.model.data" name="_jinasena_md_accounting_payment_accounts"/>
+    </data>
+</odoo>
