@@ -1,4 +1,4 @@
-id,sequence,x_studio_start_date,x_studio_end_date,x_studio_rate,x_studio_custom_currency_id/id,accounting_company_id/id,active
+id,sequence,start_date,end_date,rate,custom_currency_id/id,accounting_company_id/id,active
 custom_currency_rate_test,10,,,0.0,,,1
 custom_currency_rate_id_2,10,2021-10-01,2021-10-08,200.0,,,1
 custom_currency_rate_id_3,10,2021-10-01,2021-10-08,200.0,,,1
