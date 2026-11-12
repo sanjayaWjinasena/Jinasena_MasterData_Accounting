@@ -1,4 +1,4 @@
-"""v0.0.9: pin the two accounts that a seeded journal uses as its default account.
+"""v0.0.10: pin the two accounts that a seeded journal uses as its default account.
 
 See hooks.py (``pin_journal_default_accounts``) for the full reasoning. In short:
 data/account.account.csv re-writes ``account_type`` on every upgrade, and for
