@@ -31,6 +31,7 @@
         'data/customer_group.csv',
         'data/vendor_group.csv',
     ],
+    'post_init_hook': 'post_init_hook',
     'installable': True,
     'auto_install': False,
     'application': False,
